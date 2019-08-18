@@ -21,7 +21,7 @@
             </dependency>
           <dependency>
                <groupId>${project.groupId}</groupId>
-               <artifactId>commonapp</artifactId>
+               <artifactId>boot-starter</artifactId>
                <version>${project.version}</version>
           </dependency>
      </dependencies>

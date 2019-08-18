@@ -9,6 +9,7 @@
     <artifactId>config-server</artifactId>
     <packaging>jar</packaging>
     <dependencies>
+        
         <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
@@ -21,17 +22,17 @@
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>commonapp</artifactId>
+            <artifactId>boot-test-spring-boot-starter</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
 
     <build>
-            <plugins>
-                    <plugin>
-                            <groupId>org.springframework.boot</groupId>
-                            <artifactId>spring-boot-maven-plugin</artifactId>
-                    </plugin>
-            </plugins>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
     </build>
 </project>

@@ -14,7 +14,7 @@
         <module>config-server</module>
         <module>resource-server</module>
         <module>auth-server</module>
-        <module>commonapp</module>
+        <module>boot-starter</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

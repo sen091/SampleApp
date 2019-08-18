@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.test.commonapp;
+package com.test.bootstarter.exception;
 
 /**
  *
  * @author senthilkumar
  */
-public class PrintCommonName {
+public class DatabaseNotAvailableException extends SystemException{
     
-    public String getCommonName()
+    public DatabaseNotAvailableException(String message, Throwable err)
     {
-        return "My common name changed";
+        super(message,err);
     }
     
 }

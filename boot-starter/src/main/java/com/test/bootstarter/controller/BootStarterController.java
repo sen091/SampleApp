@@ -3,22 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.test.resource.server.controller;
+package com.test.bootstarter.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class ResourceServerController {
-	@RequestMapping("/resourcehome")
-	public String sayHello()
-	{
-		return "Hello World from Resource Server!!!";
-	}
-        @RequestMapping("/name")
-	public String printName()
-	{
-           return "";
-	}
-
+public class BootStarterController {
+    @RequestMapping("/boothome")
+    public String sayHello()
+    {
+            return "Hello World from boot home!!!";
+    }
 }
